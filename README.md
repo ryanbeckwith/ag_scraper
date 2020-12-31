@@ -2,25 +2,30 @@
 
 ## Summary
 
-This folder represents a complete web scraper for the A-G Course List webpage, which can be found at
-https://hs-articulation.ucop.edu/agcourselist. This scraper provides public methods for scraping the most recent
-year of courses from every institution registered with the A-G system, as well as courses for previous years.
+This repository represents a complete web scraper for the A-G Course List webpage, which can be found at
+https://hs-articulation.ucop.edu/agcourselist. The scraper utilizes a Python based Selenium framework and
+parallel execution to source data from this website, which is uploaded to The Village Method's Salesforce
+database in real time.
 
-The scraper utilizes a Python based Selenium framework and parallel execution to source data from this website, 
-which is uploaded to The Village Method's Salesforce database in real time.
+This repository provides public methods for scraping the most recent
+year of courses from every institution registered with the A-G system, as well as courses for previous years.
+The primary goal of this scraper is to source relevant school/course information for a student progress tracker
+application sponsored by [The Village Method](https://thevillagemethod.org/) and the Code for Good initiative
+during the summer of 2020.
 
 ## Getting started with a local development environment 
 
-1. If you haven't already, follow the steps in the general README file to set up a local development environment.
+1. Make sure that the virtualenv package is installed globally.
 2. Open a Linux terminal instance (on Windows, you can use the integrated terminal on VSCode or the Bash terminal from your Git installation). 
-3. (Mac) Activate your existing virtual environment with `source env/bin/activate`. Your shell should now be prepended with "env".  
+3. Create a new virtual environment with `virtualenv -p python3 env`.
+4. (Mac) Activate your existing virtual environment with `source env/bin/activate`. Your shell should now be prepended with "env".  
    (Windows) Activate your existing virtual environment with `source env/Scripts/activate`. Your shell should now be prepended with "env".
-4. Change into the scraper directory with `cd scraper`.
-5. Install the project dependencies into the virtual environment with `pip install -r requirements.txt`.
-6. Visit https://dashboard.heroku.com/ and log in to your Heroku account. Under the Settings tab, click the Reveal Config Vars button.
-7. Run the command `export SF_USERNAME="<insert from Heroku>" && export SF_PASSWORD="<insert from Heroku>" && export SF_TOKEN="<insert from Heroku>"`. Make sure to source the values for each environment variable from the list on Heroku.
-8. To run the scraper with the settings already entered in main.py, run the command `python main.py`. If you would like to modify these settings, open main.py and modify the parameters being passed into the `run` method.
-9. The scraper should be up and running! Follow the progress in your Linux terminal, and once the scraper has finished, check the newly created log file in the logs subdirectory to view a summary of the scraping process.
+5. Change into the scraper directory with `cd scraper`.
+6. Install the project dependencies into the virtual environment with `pip install -r requirements.txt`.
+7. Visit https://dashboard.heroku.com/ and log in to your Heroku account. Under the Settings tab, click the Reveal Config Vars button.
+8. Run the command `export SF_USERNAME="<insert from Heroku>" && export SF_PASSWORD="<insert from Heroku>" && export SF_TOKEN="<insert from Heroku>"`. Make sure to source the values for each environment variable from the corresponding list on [Heroku](https://dashboard.heroku.com/apps/the-village-method-app/settings).
+9. To run the scraper with the settings already entered in main.py, run the command `python main.py`. If you would like to modify these settings, open main.py and modify the parameters being passed into the `run` method.
+10. The scraper should be up and running! Follow the progress in your Linux terminal, and once the scraper has finished, check the newly created log file in the logs subdirectory to view a summary of the scraping process.
 
 ## Running the Scraper
 
