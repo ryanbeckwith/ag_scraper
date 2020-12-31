@@ -1,0 +1,54 @@
+Date: 09/07/20
+Time to run scraper: 00:01:57.03
+Websites visited: 11
+Years scraped: 4
+Average number of courses per school course page: 0
+Average time to scrape one school course page: 00:00:10.64
+Estimated time to run scraper fully (~5141 school course pages): 15:11:35.26
+
+Invalid website IDs: None
+Error website IDs (while creating a School object): None
+Error website IDs (while creating a Course object): None
+
+Error Messages:
+This school (Website ID: 340, Academic ID: 24) was already scraped recently: Last updated on 2015-06-08 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 340, Academic ID: 23) was already scraped recently: Last updated on 2015-06-08 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 340, Academic ID: 22) was already scraped recently: Last updated on 2015-06-08 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 340, Academic ID: 21) was already scraped recently: Last updated on 2015-06-08 versus last modified on Salesforce on 2020-09-07
+
+This school (Website ID: 341, Academic ID: 24) was already scraped recently: Last updated on 2018-03-01 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 341, Academic ID: 23) was already scraped recently: Last updated on 2018-03-01 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 341, Academic ID: 22) was already scraped recently: Last updated on 2018-03-01 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 341, Academic ID: 21) was already scraped recently: Last updated on 2017-10-27 versus last modified on Salesforce on 2020-09-07
+
+This school (Website ID: 342, Academic ID: 24) was already scraped recently: Last updated on 2017-10-11 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 342, Academic ID: 23) was already scraped recently: Last updated on 2017-10-11 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 342, Academic ID: 22) was already scraped recently: Last updated on 2017-10-11 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 342, Academic ID: 21) was already scraped recently: Last updated on 2017-10-11 versus last modified on Salesforce on 2020-09-07
+
+
+This school (Website ID: 344, Academic ID: 24) was already scraped recently: Last updated on 2017-06-07 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 344, Academic ID: 23) was already scraped recently: Last updated on 2017-06-07 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 344, Academic ID: 22) was already scraped recently: Last updated on 2017-06-07 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 344, Academic ID: 21) was already scraped recently: Last updated on 2017-06-07 versus last modified on Salesforce on 2020-09-07
+
+This school (Website ID: 345, Academic ID: 24) was already scraped recently: Last updated on 2018-09-24 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 345, Academic ID: 23) was already scraped recently: Last updated on 2020-03-04 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 345, Academic ID: 22) was already scraped recently: Last updated on 2018-09-24 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 345, Academic ID: 21) was already scraped recently: Last updated on 2018-04-20 versus last modified on Salesforce on 2020-09-07
+
+
+This school (Website ID: 347, Academic ID: 24) was already scraped recently: Last updated on 2018-07-09 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 347, Academic ID: 23) was already scraped recently: Last updated on 2018-07-09 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 347, Academic ID: 22) was already scraped recently: Last updated on 2018-07-09 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 347, Academic ID: 21) was already scraped recently: Last updated on 2017-08-18 versus last modified on Salesforce on 2020-09-07
+
+
+
+First active button was not found properly (ID 349)
+
+This school (Website ID: 350, Academic ID: 24) was already scraped recently: Last updated on 2019-09-11 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 350, Academic ID: 23) was already scraped recently: Last updated on 2019-09-11 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 350, Academic ID: 22) was already scraped recently: Last updated on 2018-09-20 versus last modified on Salesforce on 2020-09-07
+This school (Website ID: 350, Academic ID: 21) was already scraped recently: Last updated on 2018-09-20 versus last modified on Salesforce on 2020-09-07
+
