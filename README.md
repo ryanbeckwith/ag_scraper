@@ -20,12 +20,11 @@ during the summer of 2020.
 3. Create a new virtual environment with `virtualenv -p python3 env`.
 4. (Mac) Activate your existing virtual environment with `source env/bin/activate`. Your shell should now be prepended with "env".  
    (Windows) Activate your existing virtual environment with `source env/Scripts/activate`. Your shell should now be prepended with "env".
-5. Change into the scraper directory with `cd scraper`.
-6. Install the project dependencies into the virtual environment with `pip install -r requirements.txt`.
-7. Visit https://dashboard.heroku.com/ and log in to your Heroku account. Under the Settings tab, click the Reveal Config Vars button.
-8. Run the command `export SF_USERNAME="<insert from Heroku>" && export SF_PASSWORD="<insert from Heroku>" && export SF_TOKEN="<insert from Heroku>"`. Make sure to source the values for each environment variable from the corresponding list on [Heroku](https://dashboard.heroku.com/apps/the-village-method-app/settings).
-9. To run the scraper with the settings already entered in main.py, run the command `python main.py`. If you would like to modify these settings, open main.py and modify the parameters being passed into the `run` method.
-10. The scraper should be up and running! Follow the progress in your Linux terminal, and once the scraper has finished, check the newly created log file in the logs subdirectory to view a summary of the scraping process.
+5. Install the project dependencies into the virtual environment with `pip install -r requirements.txt`.
+6. Visit https://dashboard.heroku.com/ and log in to your Heroku account. Under the Settings tab, click the Reveal Config Vars button.
+7. Run the command `export SF_USERNAME="<insert from Heroku>" && export SF_PASSWORD="<insert from Heroku>" && export SF_TOKEN="<insert from Heroku>"`. Make sure to source the values for each environment variable from the corresponding list on [Heroku](https://dashboard.heroku.com/apps/the-village-method-app/settings).
+8. To run the scraper with the settings already entered in main.py, run the command `python main.py`. If you would like to modify these settings, open main.py and modify the parameters being passed into the `run` method.
+9. The scraper should be up and running! Follow the progress in your Linux terminal, and once the scraper has finished, check the newly created log file in the logs subdirectory to view a summary of the scraping process.
 
 ## Running the Scraper
 
