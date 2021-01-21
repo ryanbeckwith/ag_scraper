@@ -1,7 +1,5 @@
 # ag_scraper
 
-## Summary
-
 This repository represents a complete web scraper for the A-G Course List webpage, which can be found at
 https://hs-articulation.ucop.edu/agcourselist. The scraper utilizes a Python based Selenium framework and
 parallel execution to source data from this website, which is uploaded to The Village Method's Salesforce
